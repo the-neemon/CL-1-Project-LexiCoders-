@@ -20,7 +20,7 @@ The project will encompass:
 1. **Dataset Creation and Annotation**:
    - Collection of Hindi-English code-mixed social media text from platforms like Twitter, Facebook, and WhatsApp
    - Development of comprehensive annotation guidelines for named entities in code-mixed text
-   - Creation of a gold-standard annotated corpus with at least 5,000 sentences
+   - Creation of a gold-standard annotated corpus with at least 1000 sentences
 
 2. **Entity Types**:
    - Person (PER)
@@ -31,51 +31,48 @@ The project will encompass:
    - Products, brands (PROD)
 
 3. **Model Development**:
-   - Feature-based Conditional Random Field (CRF) models
-   - Deep learning approaches (BiLSTM-CRF with multilingual embeddings)
-   - Transformer-based approaches (code-mixed BERT variants)
+   - Feature-based Conditional Random Field (CRF) model.
+   <!-- - Deep learning approaches (BiLSTM-CRF with multilingual embeddings) -->
+   <!-- - Transformer-based approaches (code-mixed BERT variants) -->
 
 4. **Evaluation**:
    - Standard metrics: Precision, Recall, F1-score
    - Analysis across different entity types
    - Analysis based on code-mixing density and patterns
 
-5. **Demo Application**:
-   - Web interface for real-time NER on code-mixed text input
+<!-- 5. **Demo Application**: -->
+   <!-- - Web interface for real-time NER on code-mixed text input -->
 
 ## 3. Data Exploration and Creation
 
 ### Existing Datasets
-While limited, some existing resources can be leveraged:
+Following are the datasets that we will be using in the project
 
-1. **FIRE 2015 Shared Task**: Contains some Hindi-English code-mixed data with NER annotations
-   - Source: [FIRE 2015](http://fire.irsi.res.in/fire/2015/home)
+1. **Replication Data for Automatic language identification in code-switched Hindi-English social media text**
+   - link for the dataset: [link](https://dataverse.harvard.edu/dataset.xhtml;jsessionid=d99a0d881cd919d13cd21af594bf?persistentId=doi:10.7910/DVN/QD94F9)
 
 2. **Code-Mixed Dataset for Hindi-English**: Contains code-mixed social media posts
-   - Available from the [Linguistic Data Consortium](https://www.ldc.upenn.edu/)
+   - Data is scraped manuallay from social media posts, Link to the dataset will be provided later.
 
-3. **LinCE Benchmark**: A benchmark for linguistic code-switching evaluation
-   - Source: [LinCE](https://github.com/googleinterns/mixmatch)
+<!-- 3. **LinCE Benchmark**: A benchmark for linguistic code-switching evaluation -->
+   <!-- - Source: [LinCE](https://github.com/googleinterns/mixmatch) -->
 
 ### Data Creation Process
 
 1. **Collection**:
-   - Scrape tweets using Twitter API with Hindi-English hashtags and topics
+   - Scrape tweets and posts  with Hindi-English hashtags and topics
    - Collect public Facebook posts and comments from Indian pages
-   - Use existing public datasets like SAIL 2017 corpus
 
 2. **Filtering**:
-   - Identify code-mixed text using language identification tools (e.g., [langdetect](https://github.com/Mimino666/langdetect))
    - Filter for sentences with substantial mixing (at least 20% of both languages)
 
 3. **Annotation**:
-   - Train at least 3 annotators using developed guidelines
-   - Use [Doccano](https://github.com/doccano/doccano) or [BRAT](https://brat.nlplab.org/) annotation tools
-   - Ensure inter-annotator agreement using Cohen's Kappa (target > 0.8)
+   - Manually annotate the dataset extracted from social media.
+   - Dataset taken from Harvard is already annotated. 
 
 ### Annotation Guidelines
 
-Detailed guidelines will address:
+Detailed guidelines will be provided:
 - Entity boundaries in mixed-language contexts
 - Handling transliteration variations
 - Culturally-specific entities classification
@@ -130,9 +127,7 @@ Detailed guidelines will address:
 
 Several research papers provide valuable insights for this project:
 
-1. **[Named Entity Recognition in Code-Mixed Social Media Text](https://www.aclweb.org/anthology/W18-3506.pdf) by Singh et al. (2018)**:
-   - Proposes a CRF-based approach for Hindi-English code-mixed data
-   - Reports F1 scores of around 63% for Twitter data
+1. 
 
 2. **[A Dataset for Named Entity Recognition in Indian Languages](https://www.aclweb.org/anthology/L16-1689.pdf) by Murthy et al. (2016)**:
    - Created a multi-lingual NER dataset for Indian languages
