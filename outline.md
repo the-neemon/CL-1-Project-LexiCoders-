@@ -1,3 +1,4 @@
+
 # Named Entity Recognition for Code-Mixed Text: Project Outline
 
 ## 1. Problem Statement
@@ -127,43 +128,41 @@ Detailed guidelines will be provided:
 
 Several research papers provide valuable insights for this project:
 
-1. 
-
-2. **[A Dataset for Named Entity Recognition in Indian Languages](https://www.aclweb.org/anthology/L16-1689.pdf) by Murthy et al. (2016)**:
+1. **[A Dataset for Named Entity Recognition in Indian Languages](https://www.aclweb.org/anthology/L16-1689.pdf) by Murthy et al. (2016)**:
    - Created a multi-lingual NER dataset for Indian languages
    - Provides insights on annotation challenges
 
-3. **[Code Mixed Entity Extraction in Indian Languages Using Neural Networks](https://arxiv.org/abs/1908.09681) by Priyadharshini et al. (2019)**:
+2. **[Code Mixed Entity Extraction in Indian Languages Using Neural Networks](https://arxiv.org/abs/1908.09681) by Priyadharshini et al. (2019)**:
    - Uses BiLSTM-CRF for code-mixed Tamil-English
    - Shows improvements over traditional CRF approaches
 
-4. **[Sentiment Analysis of Code-Mixed Indian Social Media Text](https://www.aclweb.org/anthology/W18-6120.pdf) by Patra et al. (2018)**:
+3. **[Sentiment Analysis of Code-Mixed Indian Social Media Text](https://www.aclweb.org/anthology/W18-6120.pdf) by Patra et al. (2018)**:
    - While focused on sentiment analysis, provides insights on handling code-mixed text
 
-5. **[CALCS 2018 Shared Task: Named Entity Recognition on Code-switched Data](https://www.aclweb.org/anthology/W18-3219.pdf) by Aguilar et al. (2018)**:
+4. **[CALCS 2018 Shared Task: Named Entity Recognition on Code-switched Data](https://www.aclweb.org/anthology/W18-3219.pdf) by Aguilar et al. (2018)**:
    - Describes methods and results from a shared task on NER for code-switched data
    - Provides evaluation metrics and baseline approaches
 
 ## 6. Implementation Plan
 
-### Phase 1: Data Collection and Annotation (4 weeks)
+### Phase 1: Data Collection and Annotation
 - Develop annotation guidelines
 - Collect raw code-mixed data
 - Train annotators and begin annotation process
 - Achieve target corpus size with high inter-annotator agreement
 
-### Phase 2: Model Development (6 weeks)
+### Phase 2: Model Development
 - Implement preprocessing pipeline
 - Develop and train CRF models
 - Experiment with deep learning approaches
 - Compare and optimize models
 
-### Phase 3: Evaluation and Analysis (2 weeks)
+### Phase 3: Evaluation and Analysis
 - Comprehensive evaluation using held-out test set
 - Error analysis and model refinement
 - Performance analysis across entity types and code-mixing patterns
 
-### Phase 4: Demo Development (2 weeks)
+### Phase 4: Demo Development 
 - Build web interface for demonstration
 - Integrate model into API
 - User testing and refinement
