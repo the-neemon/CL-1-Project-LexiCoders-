@@ -1,25 +1,59 @@
+# Hinglish Text NER Annotation Using ILMT Tagset
+
+```
 Seriously, yeh art exhibition mind-blowing hai.
-Aaj ka evening plan completely relaxed hai.
-Aaj ka plan simple par epic hai.
+NETI(Aaj) ka evening plan completely relaxed hai.
+NETI(Aaj) ka plan simple par epic hai.
 LOL, teri joke ne toh dil khush kar diya.
-Seriously, yeh new song super catchy hai.
-Aaj ka raat ka plan full fun hai.
+Seriously, yeh new NEAR(song) super catchy hai.
+NETI(Aaj) ka NETI(raat) ka plan full fun hai.
+Bhai, NETI(kal) ke game session join karna.
+Yaar, yeh road trip plan ekdum perfect hai.
+Kya upgrade hai, NEAR(phone) bilkul swag hai.
+NETI(Aaj) ka NETI(raat) ka plan full fun hai.
+NETI(Aaj) ka plan simple par epic hai.
+Seriously, cricket match dekhne chalte hain.
+LOL, teri style dekhke sab impressed hain.
+Kya baat hai, sab tone bilkul vibrant hai.
+Bro, yeh style trend next level hai.
+Bro, NEF(office) se nikalte hi chill karne chalo.
+Bas yaar, ab tension nahi leni chahiye.
+Yaar, NETI(weekend) pe koi adventure plan karein?
+Seriously, yeh art exhibition mind-blowing hai.
+Kya mast update hai, totally unexpected!
+LOL, tumhari tweet ne sabko hasa diya.
+Chill karo yaar, sab kuch sorted hai.
+Kya aap sab NETI(kal) ki meetup ke liye ready ho?
+NETI(Aaj) ka brunch spot selection top class hai.
+Bro, NEF(office) se nikalte hi chill karne chalo.
+Kya scene hai, outing ke liye ready ho?
+Seriously, yeh new NEAR(song) super catchy hai.
 Bhai, yeh photo bilkul insta-worthy hai.
-Yaar, aaj ka Instagram feed fire hai.
-Yaar, office after-party ka plan tight hai.
+Seriously, yeh update sab ko shock kar diya.
+Bro, yeh style trend next level hai.
+Seriously, NETI(weekend) plans already fix ho gaye.
+Bro, nayi NEAR(album) bilkul bindaas lag rahi hai.
+Yaar, NETI(aaj) ka Instagram feed fire hai.
+Kya upgrade hai, NEAR(phone) bilkul swag hai.
+Bas yaar, ab tension nahi leni chahiye.
+Chill scene hai, NETI(kal) meet-up zaroor.
+Bhai, NETI(aaj) ka game night full on maza aayega.
+NETI(Aaj) ka evening plan completely relaxed hai. yeh photo bilkul insta-worthy hai.
+Yaar, NETI(aaj) ka Instagram feed fire hai.
+Yaar, NEF(office) after-party ka plan tight hai.
 Kya mast vibes hai, dil khush ho gaya.
 LOL, teri joke ne toh dil khush kar diya.
 Kya scene hai, are you coming to the bash?
-Bhai, aaj ka party epic hone wala hai.
+Bhai, NETI(aaj) ka party epic hone wala hai.
 Kya baat hai, energy bilkul on point hai.
-Yaar, weekend pe koi adventure plan karein?
-Wah, yeh dress bilkul lit lag rahi hai.
+Yaar, NETI(weekend) pe koi adventure plan karein?
+Wah, yeh NEAR(dress) bilkul lit lag rahi hai.
 Seriously, yeh announcement sab ko excite kar diya.
 Seriously, yeh announcement sab ko excite kar diya.
-Yaar, mood bilkul high hai aaj.
-Aaj ka vlog full on entertaining tha.
+Yaar, mood bilkul high hai NETI(aaj).
+NETI(Aaj) ka vlog full on entertaining tha.
 Yaar, yeh road trip plan ekdum perfect hai.
-Aaj ka evening plan completely relaxed hai.
+NETI(Aaj) ka evening plan completely relaxed hai.
 Yaar, tumhari planning se sab impressed hain.
 LOL, teri story bilkul relatable hai.
 Seriously, yeh fashion sense next level hai.
@@ -27,82 +61,82 @@ Bro, yeh style trend next level hai.
 Kya baat hai, sab tone bilkul vibrant hai.
 Kya scene hai, are you coming to the bash?
 Yaar, exam ke baad full relax time!
-OMG, festival mood on fire hai today.
-Bro, naya cafe bilkul worth trying hai.
+OMG, festival mood on fire hai NETI(today).
+Bro, naya NEF(cafe) bilkul worth trying hai.
 Chill maar, sab theek ho jayega.
 Seriously, yeh fashion sense next level hai.
 LOL, tumhari reaction dekhke sab hase.
-Yaar, mood bilkul high hai aaj.
-Bro, new cafe try karein this weekend?
+Yaar, mood bilkul high hai NETI(aaj).
+Bro, new NEF(cafe) try karein this NETI(weekend)?
 LOL, tumhari video bilkul hilarious hai.
 Yaar, exam ke baad full relax time!
-Bhai, kal ke game session join karna.
+Bhai, NETI(kal) ke game session join karna.
 LOL, that moment totally unexpected tha.
 LOL, tumhari reaction dekhke sab hase.
-Bhai, yeh gadget bilkul innovative hai.
-Aaj ka brunch spot selection top class hai.
+Bhai, yeh NEAR(gadget) bilkul innovative hai.
+NETI(Aaj) ka brunch spot selection top class hai.
 Yaar, yeh place bilkul chill vibes de raha.
-Bhai, yeh gadget bilkul innovative hai.
-Bhai, aaj ka game night full on maza aayega.
-Guys, kal ke event ke liye dress code kya hai?
-Kal ka outing confirm, no doubt.
+Bhai, yeh NEAR(gadget) bilkul innovative hai.
+Bhai, NETI(aaj) ka game night full on maza aayega.
+Guys, NETI(kal) ke event ke liye dress code kya hai?
+NETI(Kal) ka outing confirm, no doubt.
 Kya baat hai, style game bilkul on fire hai.
 Seriously, yeh culture event must attend hai.
 Kya baat hai, sab tone bilkul vibrant hai.
 Bro, party invitation bilkul on point hai.
 Bhai, game session mein competition high hai.
-Guys, kal ke event ke liye dress code kya hai?
+Guys, NETI(kal) ke event ke liye dress code kya hai?
 Seriously, yeh art exhibition mind-blowing hai.
-Yaar, aaj ka Instagram feed fire hai.
+Yaar, NETI(aaj) ka Instagram feed fire hai.
 Seriously, yeh art exhibition mind-blowing hai.
-Aaj ka vlog full on entertaining tha.
-Aaj ka concert bilkul dhamakedaar tha.
-Wah, yeh dress bilkul lit lag rahi hai.
-Aaj ka mood bilkul sahi lag raha hai.
-Arrey, traffic toh aaj full scene ho gaya.
-Bhai, aaj ka party epic hone wala hai.
-Yaar, kal ka plan set hai na?
+NETI(Aaj) ka vlog full on entertaining tha.
+NETI(Aaj) ka concert bilkul dhamakedaar tha.
+Wah, yeh NEAR(dress) bilkul lit lag rahi hai.
+NETI(Aaj) ka mood bilkul sahi lag raha hai.
+Arrey, traffic toh NETI(aaj) full scene ho gaya.
+Bhai, NETI(aaj) ka party epic hone wala hai.
+Yaar, NETI(kal) ka plan set hai na?
 Bro, movie dekhne chalein kya?
-Yaar, weekend pe koi adventure plan karein?
+Yaar, NETI(weekend) pe koi adventure plan karein?
 LOL, teri post dekhke dil garden garden hua.
-Bro, naya song sunke energy aa gayi.
+Bro, naya NEAR(song) sunke energy aa gayi.
 Kya baat hai, sab tone bilkul vibrant hai.
 Seriously, yeh art exhibition mind-blowing hai.
 Bro, party outfits sab se cool dikhe.
 Kya mast update hai, totally unexpected!
 OMG, yeh food bilkul mind-blowing tha!
 LOL, tumhari tweet ne sabko hasa diya.
-Bro, naya song sunke energy aa gayi.
-Bro, office se nikalte hi chill karne chalo.
+Bro, naya NEAR(song) sunke energy aa gayi.
+Bro, NEF(office) se nikalte hi chill karne chalo.
 Yaar, kaam ke baad relax karne chalein kya?
 Seriously, yeh culture event must attend hai.
 Kya scene hai, are you coming to the bash?
-Chill scene hai, kal meet-up zaroor.
-Aaj ka dinner spot selection perfect hai.
-OMG, festival mood on fire hai today.
-Chill scene hai, kal meet-up zaroor.
+Chill scene hai, NETI(kal) meet-up zaroor.
+NETI(Aaj) ka dinner spot selection perfect hai.
+OMG, festival mood on fire hai NETI(today).
+Chill scene hai, NETI(kal) meet-up zaroor.
 Bro, movie dekhne chalein kya?
-Seriously, yeh new song super catchy hai.
-Bro, nayi album bilkul bindaas lag rahi hai.
-Bhai, aaj ka party epic hone wala hai.
-Wah, yeh dress bilkul lit lag rahi hai.
+Seriously, yeh new NEAR(song) super catchy hai.
+Bro, nayi NEAR(album) bilkul bindaas lag rahi hai.
+Bhai, NETI(aaj) ka party epic hone wala hai.
+Wah, yeh NEAR(dress) bilkul lit lag rahi hai.
 Seriously, yeh culture event must attend hai.
 Bro, yeh vibe bilkul killer lag rahi hai.
 Bro, yeh vibe bilkul killer lag rahi hai.
-Chill scene hai, kal meet-up zaroor.
+Chill scene hai, NETI(kal) meet-up zaroor.
 Bro, movie dekhne chalein kya?
 Chill maar, sab theek ho jayega.
-OMG, kal ki performance super zabardast thi.
-Aaj ka concert bilkul dhamakedaar tha.
+OMG, NETI(kal) ki performance super zabardast thi.
+NETI(Aaj) ka concert bilkul dhamakedaar tha.
 Yaar, yeh place bilkul chill vibes de raha.
 Seriously, yeh update sab ko shock kar diya.
 Yeh weather perfect hai for outdoor masti!
 Kya scene hai, kab milna hai sabse?
-Aaj ka brunch spot selection top class hai.
+NETI(Aaj) ka brunch spot selection top class hai.
 Bro, yeh vibe bilkul killer lag rahi hai.
 Kya baat hai, energy vibes bilkul lit hain.
-Kya upgrade hai, phone bilkul swag hai.
-Kya aap sab kal ki meetup ke liye ready ho?
+Kya upgrade hai, NEAR(phone) bilkul swag hai.
+Kya aap sab NETI(kal) ki meetup ke liye ready ho?
 Bro, yeh style trend next level hai.
 Bhai, yeh live performance next level hai.
 Kya scene hai, outing ke liye ready ho?
@@ -111,18 +145,18 @@ LOL, teri comment se smile aa gayi.
 LOL, tumhari tweet ne sabko hasa diya.
 Bhai, yeh live performance next level hai.
 Yeh weather perfect hai for outdoor masti!
-Yaar, kal ka plan set hai na?
-Aaj ka brunch spot selection top class hai.
-Yaar, office after-party ka plan tight hai.
-Yaar, mood bilkul high hai aaj.
-Guys, kal ke event ke liye dress code kya hai?
+Yaar, NETI(kal) ka plan set hai na?
+NETI(Aaj) ka brunch spot selection top class hai.
+Yaar, NEF(office) after-party ka plan tight hai.
+Yaar, mood bilkul high hai NETI(aaj).
+Guys, NETI(kal) ke event ke liye dress code kya hai?
 LOL, teri comment se smile aa gayi.
-Wah, yeh dress bilkul lit lag rahi hai.
-Arrey, traffic toh aaj full scene ho gaya.
-Bro, new cafe try karein this weekend?
-Aaj ka concert bilkul dhamakedaar tha.
+Wah, yeh NEAR(dress) bilkul lit lag rahi hai.
+Arrey, traffic toh NETI(aaj) full scene ho gaya.
+Bro, new NEF(cafe) try karein this NETI(weekend)?
+NETI(Aaj) ka concert bilkul dhamakedaar tha.
 Seriously, yeh dessert bilkul heavenly lag raha.
-Seriously, weekend plans already fix ho gaye.
+Seriously, NETI(weekend) plans already fix ho gaye.
 Yeh weather perfect hai for outdoor masti!
 Kya baat hai, style game bilkul on fire hai.
 LOL, tumhari video bilkul hilarious hai.
@@ -133,235 +167,235 @@ Bro, yeh vibe bilkul killer lag rahi hai.
 LOL, teri post dekhke dil garden garden hua.
 Bhai, yeh live performance next level hai.
 Kya baat hai, energy bilkul on point hai.
-Kya aap sab kal ki meetup ke liye ready ho?
-Wah, yeh dress bilkul lit lag rahi hai.
+Kya aap sab NETI(kal) ki meetup ke liye ready ho?
+Wah, yeh NEAR(dress) bilkul lit lag rahi hai.
 Chill maar, sab theek ho jayega.
-Chill scene hai, kal meet-up zaroor.
-Aaj ka raat ka plan full fun hai.
-Wah, yeh dress bilkul lit lag rahi hai.
+Chill scene hai, NETI(kal) meet-up zaroor.
+NETI(Aaj) ka NETI(raat) ka plan full fun hai.
+Wah, yeh NEAR(dress) bilkul lit lag rahi hai.
 Bro, party outfits sab se cool dikhe.
-Arrey, traffic toh aaj full scene ho gaya.
+Arrey, traffic toh NETI(aaj) full scene ho gaya.
 Yaar, kaam ke baad relax karne chalein kya?
-OMG, festival mood on fire hai today.
-Bro, nayi album bilkul bindaas lag rahi hai.
+OMG, festival mood on fire hai NETI(today).
+Bro, nayi NEAR(album) bilkul bindaas lag rahi hai.
 LOL, teri joke ne toh dil khush kar diya.
-OMG, festival mood on fire hai today.
-Bro, naya cafe bilkul worth trying hai.
+OMG, festival mood on fire hai NETI(today).
+Bro, naya NEF(cafe) bilkul worth trying hai.
 LOL, teri style dekhke sab impressed hain.
-Seriously, yeh new song super catchy hai.
-Yaar, office after-party ka plan tight hai.
+Seriously, yeh new NEAR(song) super catchy hai.
+Yaar, NEF(office) after-party ka plan tight hai.
 Seriously, yeh announcement sab ko excite kar diya.
-Aaj ka dinner spot selection perfect hai.
-Guys, kal ke event ke liye dress code kya hai?
+NETI(Aaj) ka dinner spot selection perfect hai.
+Guys, NETI(kal) ke event ke liye dress code kya hai?
 Seriously, yeh fashion sense next level hai.
-Aaj ka evening plan completely relaxed hai.
-Chill maar, weekend plans pakka set hain.
+NETI(Aaj) ka evening plan completely relaxed hai.
+Chill maar, NETI(weekend) plans pakka set hain.
 Kya scene hai, are you coming to the bash?
 LOL, teri style dekhke sab impressed hain.
 Bro, party invitation bilkul on point hai.
-Aaj ka evening plan completely relaxed hai.
+NETI(Aaj) ka evening plan completely relaxed hai.
 Seriously, yeh dessert bilkul heavenly lag raha.
-Chill maar, weekend plans pakka set hain.
+Chill maar, NETI(weekend) plans pakka set hain.
 Lol, tumhara meme game on point hai.
-Kal ka outing confirm, no doubt.
-Bhai, yeh selfie game aaj next level hai.
+NETI(Kal) ka outing confirm, no doubt.
+Bhai, yeh selfie game NETI(aaj) next level hai.
 LOL, teri story bilkul relatable hai.
-Kal ka outing confirm, no doubt.
+NETI(Kal) ka outing confirm, no doubt.
 LOL, that moment totally unexpected tha.
 Yaar, yeh road trip plan ekdum perfect hai.
 Seriously, cricket match dekhne chalte hain.
-Seriously, office ka environment full supportive hai.
+Seriously, NEF(office) ka environment full supportive hai.
 Kya baat hai, energy vibes bilkul lit hain.
 Bro, party invitation bilkul on point hai.
 Seriously, yeh update sab ko shock kar diya.
 Bro, movie dekhne chalein kya?
 Seriously, cricket match dekhne chalte hain.
 Bas yaar, ab tension nahi leni chahiye.
-Guys, kal ke event ke liye dress code kya hai?
-Seriously, weekend plans already fix ho gaye.
+Guys, NETI(kal) ke event ke liye dress code kya hai?
+Seriously, NETI(weekend) plans already fix ho gaye.
 Yaar, exam ke baad full relax time!
-Bhai, yeh selfie game aaj next level hai.
-Bro, naya cafe bilkul worth trying hai.
+Bhai, yeh selfie game NETI(aaj) next level hai.
+Bro, naya NEF(cafe) bilkul worth trying hai.
 LOL, teri story bilkul relatable hai.
 Kya scene hai, kab milna hai sabse?
 Seriously, yeh dessert bilkul heavenly lag raha.
-Bro, new cafe try karein this weekend?
-Bro, naya song sunke energy aa gayi.
-Aaj ka plan simple par epic hai.
-Bro, naya song sunke energy aa gayi.
-Bro, naya cafe bilkul worth trying hai.
-Bro, naya cafe bilkul worth trying hai.
+Bro, new NEF(cafe) try karein this NETI(weekend)?
+Bro, naya NEAR(song) sunke energy aa gayi.
+NETI(Aaj) ka plan simple par epic hai.
+Bro, naya NEAR(song) sunke energy aa gayi.
+Bro, naya NEF(cafe) bilkul worth trying hai.
+Bro, naya NEF(cafe) bilkul worth trying hai.
 LOL, tumhari video bilkul hilarious hai.
-Aaj ka mood bilkul sahi lag raha hai.
-Yaar, office after-party ka plan tight hai.
+NETI(Aaj) ka mood bilkul sahi lag raha hai.
+Yaar, NEF(office) after-party ka plan tight hai.
 Kya mast update hai, totally unexpected!
 Yaar, yeh road trip plan ekdum perfect hai.
 Yaar, exam ke baad full relax time!
 Bhai, game session mein competition high hai.
 LOL, teri post dekhke dil garden garden hua.
-Bhai, yeh gadget bilkul innovative hai.
+Bhai, yeh NEAR(gadget) bilkul innovative hai.
 Bhai, movie selection bilkul solid hai.
 Chill karo yaar, sab kuch sorted hai.
 Bro, yeh style trend next level hai.
 Kya mast vibes hai, dil khush ho gaya.
 LOL, that moment totally unexpected tha.
 Kya baat hai, style game bilkul on fire hai.
-Aaj ka raat ka plan full fun hai.
+NETI(Aaj) ka NETI(raat) ka plan full fun hai.
 Seriously, yeh fashion sense next level hai.
 Bro, yeh vibe bilkul killer lag rahi hai.
-Seriously, yeh new song super catchy hai.
-Aaj ka mood bilkul sahi lag raha hai.
-Aaj ka mood bilkul sahi lag raha hai.
+Seriously, yeh new NEAR(song) super catchy hai.
+NETI(Aaj) ka mood bilkul sahi lag raha hai.
+NETI(Aaj) ka mood bilkul sahi lag raha hai.
 Kya mast vibes hai, dil khush ho gaya.
 Chill karo yaar, sab kuch sorted hai.
 LOL, teri post dekhke dil garden garden hua.
-Seriously, office ka environment full supportive hai.
+Seriously, NEF(office) ka environment full supportive hai.
 Seriously, yeh announcement sab ko excite kar diya.
 Kya scene hai, outing ke liye ready ho?
-Seriously, office ka environment full supportive hai.
-OMG, kal ki performance super zabardast thi.
-Aaj ka brunch spot selection top class hai.
-Chill scene hai, kal meet-up zaroor.
+Seriously, NEF(office) ka environment full supportive hai.
+OMG, NETI(kal) ki performance super zabardast thi.
+NETI(Aaj) ka brunch spot selection top class hai.
+Chill scene hai, NETI(kal) meet-up zaroor.
 Yaar, yeh place bilkul chill vibes de raha.
 Seriously, cricket match dekhne chalte hain.
 Bro, party outfits sab se cool dikhe.
 Kya scene hai, kab milna hai sabse?
 LOL, teri style dekhke sab impressed hain.
 Lol, tumhara meme game on point hai.
-Seriously, office ka environment full supportive hai.
+Seriously, NEF(office) ka environment full supportive hai.
 Bhai, game session mein competition high hai.
 OMG, yeh food bilkul mind-blowing tha!
 Bhai, movie selection bilkul solid hai.
-Bhai, kal ke game session join karna.
-Bro, weekend getaway plan karna chahiye.
+Bhai, NETI(kal) ke game session join karna.
+Bro, NETI(weekend) getaway plan karna chahiye.
 LOL, teri story bilkul relatable hai.
-Bro, weekend getaway plan karna chahiye.
+Bro, NETI(weekend) getaway plan karna chahiye.
 Bro, movie dekhne chalein kya?
-Seriously, weekend plans already fix ho gaye.
+Seriously, NETI(weekend) plans already fix ho gaye.
 Kya scene hai, outing ke liye ready ho?
-Aaj ka vlog full on entertaining tha.
-Kal ka outing confirm, no doubt.
+NETI(Aaj) ka vlog full on entertaining tha.
+NETI(Kal) ka outing confirm, no doubt.
 Yaar, yeh road trip plan ekdum perfect hai.
 Chill maar, sab theek ho jayega.
 Bro, party invitation bilkul on point hai.
-Bro, naya song sunke energy aa gayi.
+Bro, naya NEAR(song) sunke energy aa gayi.
 OMG, yeh food bilkul mind-blowing tha!
 Lol, tumhara meme game on point hai.
 Bhai, movie selection bilkul solid hai.
 LOL, teri post dekhke dil garden garden hua.
 Yaar, yeh place bilkul chill vibes de raha.
-Bro, naya song sunke energy aa gayi.
+Bro, naya NEAR(song) sunke energy aa gayi.
 Bhai, game session mein competition high hai.
 OMG, yeh news sunke dil garden garden ho gaya.
-Bro, nayi album bilkul bindaas lag rahi hai.
-Yaar, aaj ka Instagram feed fire hai.
+Bro, nayi NEAR(album) bilkul bindaas lag rahi hai.
+Yaar, NETI(aaj) ka Instagram feed fire hai.
 Yaar, exam ke baad full relax time!
-Seriously, weekend plans already fix ho gaye.
+Seriously, NETI(weekend) plans already fix ho gaye.
 Seriously, yeh update sab ko shock kar diya.
 Yeh weather perfect hai for outdoor masti!
-Aaj ka mood bilkul sahi lag raha hai.
+NETI(Aaj) ka mood bilkul sahi lag raha hai.
 Yaar, tumhari planning se sab impressed hain.
-Yaar, mood bilkul high hai aaj.
+Yaar, mood bilkul high hai NETI(aaj).
 Bhai, yeh live performance next level hai.
 LOL, that moment totally unexpected tha.
-Aaj ka vlog full on entertaining tha.
-Aaj ka concert bilkul dhamakedaar tha.
+NETI(Aaj) ka vlog full on entertaining tha.
+NETI(Aaj) ka concert bilkul dhamakedaar tha.
 Kya mast vibes hai, dil khush ho gaya.
 LOL, that moment totally unexpected tha.
-Aaj ka dinner spot selection perfect hai.
-Aaj ka plan simple par epic hai.
+NETI(Aaj) ka dinner spot selection perfect hai.
+NETI(Aaj) ka plan simple par epic hai.
 Kya mast update hai, totally unexpected!
 LOL, tumhari tweet ne sabko hasa diya.
-Aaj ka vlog full on entertaining tha.
-Bhai, aaj ka party epic hone wala hai.
-Bro, weekend getaway plan karna chahiye.
+NETI(Aaj) ka vlog full on entertaining tha.
+Bhai, NETI(aaj) ka party epic hone wala hai.
+Bro, NETI(weekend) getaway plan karna chahiye.
 Yaar, exam ke baad full relax time!
 Seriously, yeh announcement sab ko excite kar diya.
-Aaj ka plan simple par epic hai.
-Bhai, yeh selfie game aaj next level hai.
+NETI(Aaj) ka plan simple par epic hai.
+Bhai, yeh selfie game NETI(aaj) next level hai.
 Chill karo yaar, sab kuch sorted hai.
 Bas yaar, ab tension nahi leni chahiye.
 Seriously, yeh fashion sense next level hai.
 Seriously, cricket match dekhne chalte hain.
 LOL, teri style dekhke sab impressed hain.
-Bro, office se nikalte hi chill karne chalo.
+Bro, NEF(office) se nikalte hi chill karne chalo.
 Kya scene hai, outing ke liye ready ho?
 Chill karo yaar, sab kuch sorted hai.
-Arrey, traffic toh aaj full scene ho gaya.
+Arrey, traffic toh NETI(aaj) full scene ho gaya.
 Yaar, kaam ke baad relax karne chalein kya?
 Kya baat hai, style game bilkul on fire hai.
 Kya scene hai, kab milna hai sabse?
 LOL, teri joke ne toh dil khush kar diya.
 Seriously, yeh fashion sense next level hai.
-Bro, nayi album bilkul bindaas lag rahi hai.
+Bro, nayi NEAR(album) bilkul bindaas lag rahi hai.
 OMG, yeh food bilkul mind-blowing tha!
 Bas yaar, ab tension nahi leni chahiye.
-Bhai, kal ke game session join karna.
-Yaar, kal ka plan set hai na?
-Arrey, traffic toh aaj full scene ho gaya.
-Yaar, weekend pe koi adventure plan karein?
+Bhai, NETI(kal) ke game session join karna.
+Yaar, NETI(kal) ka plan set hai na?
+Arrey, traffic toh NETI(aaj) full scene ho gaya.
+Yaar, NETI(weekend) pe koi adventure plan karein?
 Kya mast vibes hai, dil khush ho gaya.
 Seriously, yeh culture event must attend hai.
-OMG, kal ki performance super zabardast thi.
-Yaar, kal ka plan set hai na?
-Bro, new cafe try karein this weekend?
+OMG, NETI(kal) ki performance super zabardast thi.
+Yaar, NETI(kal) ka plan set hai na?
+Bro, new NEF(cafe) try karein this NETI(weekend)?
 OMG, yeh food bilkul mind-blowing tha!
 Seriously, yeh art exhibition mind-blowing hai.
 Yaar, tumhari planning se sab impressed hain.
-Bhai, aaj ka game night full on maza aayega.
+Bhai, NETI(aaj) ka game night full on maza aayega.
 Bhai, movie selection bilkul solid hai.
-Kya aap sab kal ki meetup ke liye ready ho?
+Kya aap sab NETI(kal) ki meetup ke liye ready ho?
 Chill maar, sab theek ho jayega.
-Kya aap sab kal ki meetup ke liye ready ho?
+Kya aap sab NETI(kal) ki meetup ke liye ready ho?
 Bhai, yeh photo bilkul insta-worthy hai.
-Yaar, mood bilkul high hai aaj.
+Yaar, mood bilkul high hai NETI(aaj).
 Kya baat hai, sab tone bilkul vibrant hai.
 LOL, teri story bilkul relatable hai.
 LOL, teri post dekhke dil garden garden hua.
 Kya baat hai, energy bilkul on point hai.
-Aaj ka concert bilkul dhamakedaar tha.
+NETI(Aaj) ka concert bilkul dhamakedaar tha.
 Bas yaar, ab tension nahi leni chahiye.
 Bro, movie dekhne chalein kya?
 Yaar, kaam ke baad relax karne chalein kya?
-Bhai, yeh gadget bilkul innovative hai.
+Bhai, yeh NEAR(gadget) bilkul innovative hai.
 LOL, tumhari reaction dekhke sab hase.
 Kya baat hai, energy bilkul on point hai.
 LOL, that moment totally unexpected tha.
-Bhai, kal ke game session join karna.
+Bhai, NETI(kal) ke game session join karna.
 Bro, yeh vibe bilkul killer lag rahi hai.
-Kal ka outing confirm, no doubt.
-Yaar, aaj ka Instagram feed fire hai.
-Seriously, office ka environment full supportive hai.
+NETI(Kal) ka outing confirm, no doubt.
+Yaar, NETI(aaj) ka Instagram feed fire hai.
+Seriously, NEF(office) ka environment full supportive hai.
 Lol, tumhara meme game on point hai.
 Seriously, yeh culture event must attend hai.
 Yaar, kaam ke baad relax karne chalein kya?
 Lol, tumhara meme game on point hai.
 Yaar, tumhari planning se sab impressed hain.
 Seriously, yeh update sab ko shock kar diya.
-Seriously, office ka environment full supportive hai.
+Seriously, NEF(office) ka environment full supportive hai.
 Bhai, yeh photo bilkul insta-worthy hai.
-Yaar, kal ka plan set hai na?
-Aaj ka evening plan completely relaxed hai.
-Bro, office se nikalte hi chill karne chalo.
-Guys, kal ke event ke liye dress code kya hai?
-Bhai, aaj ka game night full on maza aayega.
+Yaar, NETI(kal) ka plan set hai na?
+NETI(Aaj) ka evening plan completely relaxed hai.
+Bro, NEF(office) se nikalte hi chill karne chalo.
+Guys, NETI(kal) ke event ke liye dress code kya hai?
+Bhai, NETI(aaj) ka game night full on maza aayega.
 OMG, yeh news sunke dil garden garden ho gaya.
 Kya baat hai, energy vibes bilkul lit hain.
-Bro, office se nikalte hi chill karne chalo.
-OMG, kal ki performance super zabardast thi.
-Bhai, yeh gadget bilkul innovative hai.
-Aaj ka dinner spot selection perfect hai.
-Bhai, yeh selfie game aaj next level hai.
+Bro, NEF(office) se nikalte hi chill karne chalo.
+OMG, NETI(kal) ki performance super zabardast thi.
+Bhai, yeh NEAR(gadget) bilkul innovative hai.
+NETI(Aaj) ka dinner spot selection perfect hai.
+Bhai, yeh selfie game NETI(aaj) next level hai.
 Yaar, yeh road trip plan ekdum perfect hai.
-Seriously, yeh new song super catchy hai.
+Seriously, yeh new NEAR(song) super catchy hai.
 Bro, party outfits sab se cool dikhe.
 Kya baat hai, style game bilkul on fire hai.
 Bhai, yeh live performance next level hai.
-Yaar, office after-party ka plan tight hai.
+Yaar, NEF(office) after-party ka plan tight hai.
 Seriously, yeh update sab ko shock kar diya.
 OMG, yeh news sunke dil garden garden ho gaya.
-Bhai, kal ke game session join karna.
-Chill maar, weekend plans pakka set hain.
+Bhai, NETI(kal) ke game session join karna.
+Chill maar, NETI(weekend) plans pakka set hain.
 LOL, teri comment se smile aa gayi.
 LOL, tumhari reaction dekhke sab hase.
 OMG, yeh food bilkul mind-blowing tha!
@@ -370,131 +404,97 @@ Bhai, game session mein competition high hai.
 Bhai, yeh photo bilkul insta-worthy hai.
 Bro, party outfits sab se cool dikhe.
 Bro, movie dekhne chalein kya?
-Bro, naya cafe bilkul worth trying hai.
+Bro, naya NEF(cafe) bilkul worth trying hai.
 Seriously, yeh culture event must attend hai.
-Kya upgrade hai, phone bilkul swag hai.
+Kya upgrade hai, NEAR(phone) bilkul swag hai.
 Kya scene hai, are you coming to the bash?
-Yaar, office after-party ka plan tight hai.
+Yaar, NEF(office) after-party ka plan tight hai.
 Kya baat hai, sab tone bilkul vibrant hai.
 Chill karo yaar, sab kuch sorted hai.
 Bhai, game session mein competition high hai.
-Seriously, weekend plans already fix ho gaye.
-OMG, festival mood on fire hai today.
-Chill maar, weekend plans pakka set hain.
-Arrey, traffic toh aaj full scene ho gaya.
+Seriously, NETI(weekend) plans already fix ho gaye.
+OMG, festival mood on fire hai NETI(today).
+Chill maar, NETI(weekend) plans pakka set hain.
+Arrey, traffic toh NETI(aaj) full scene ho gaya.
 Seriously, yeh dessert bilkul heavenly lag raha.
 Lol, tumhara meme game on point hai.
 LOL, teri comment se smile aa gayi.
 Bro, yeh style trend next level hai.
 LOL, teri comment se smile aa gayi.
-Bro, nayi album bilkul bindaas lag rahi hai.
-Aaj ka concert bilkul dhamakedaar tha.
-Aaj ka brunch spot selection top class hai.
+Bro, nayi NEAR(album) bilkul bindaas lag rahi hai.
+NETI(Aaj) ka concert bilkul dhamakedaar tha.
+NETI(Aaj) ka brunch spot selection top class hai.
 Seriously, yeh announcement sab ko excite kar diya.
-Yaar, kal ka plan set hai na?
+Yaar, NETI(kal) ka plan set hai na?
 Kya baat hai, energy vibes bilkul lit hain.
-Aaj ka vlog full on entertaining tha.
+NETI(Aaj) ka vlog full on entertaining tha.
 Kya baat hai, energy bilkul on point hai.
 LOL, teri story bilkul relatable hai.
-Bro, new cafe try karein this weekend?
+Bro, new NEF(cafe) try karein this NETI(weekend)?
 Kya baat hai, energy bilkul on point hai.
 LOL, teri style dekhke sab impressed hain.
-Bhai, aaj ka party epic hone wala hai.
+Bhai, NETI(aaj) ka party epic hone wala hai.
 OMG, yeh news sunke dil garden garden ho gaya.
 LOL, tumhari tweet ne sabko hasa diya.
-Chill maar, weekend plans pakka set hain.
+Chill maar, NETI(weekend) plans pakka set hain.
 LOL, tumhari tweet ne sabko hasa diya.
-Aaj ka mood bilkul sahi lag raha hai.
+NETI(Aaj) ka mood bilkul sahi lag raha hai.
 Kya scene hai, kab milna hai sabse?
-Yaar, mood bilkul high hai aaj.
+Yaar, mood bilkul high hai NETI(aaj).
 Bhai, movie selection bilkul solid hai.
 Yaar, kaam ke baad relax karne chalein kya?
-Bhai, yeh selfie game aaj next level hai.
+Bhai, yeh selfie game NETI(aaj) next level hai.
 Kya mast update hai, totally unexpected!
-Kal ka outing confirm, no doubt.
-Aaj ka plan simple par epic hai.
+NETI(Kal) ka outing confirm, no doubt.
+NETI(Aaj) ka plan simple par epic hai.
 Kya scene hai, are you coming to the bash?
-Bro, new cafe try karein this weekend?
+Bro, new NEF(cafe) try karein this NETI(weekend)?
 Kya baat hai, energy vibes bilkul lit hain.
 LOL, tumhari video bilkul hilarious hai.
 Kya baat hai, energy vibes bilkul lit hain.
 Bhai, yeh live performance next level hai.
 OMG, yeh news sunke dil garden garden ho gaya.
 LOL, tumhari reaction dekhke sab hase.
-Bro, weekend getaway plan karna chahiye.
-Bro, weekend getaway plan karna chahiye.
-Aaj ka dinner spot selection perfect hai.
-Aaj ka raat ka plan full fun hai.
-Aaj ka dinner spot selection perfect hai.
-OMG, kal ki performance super zabardast thi.
-Yaar, weekend pe koi adventure plan karein?
-Bhai, aaj ka game night full on maza aayega.
-Kya aap sab kal ki meetup ke liye ready ho?
+Bro, NETI(weekend) getaway plan karna chahiye.
+Bro, NETI(weekend) getaway plan karna chahiye.
+NETI(Aaj) ka dinner spot selection perfect hai.
+NETI(Aaj) ka NETI(raat) ka plan full fun hai.
+NETI(Aaj) ka dinner spot selection perfect hai.
+OMG, NETI(kal) ki performance super zabardast thi.
+Yaar, NETI(weekend) pe koi adventure plan karein?
+Bhai, NETI(aaj) ka game night full on maza aayega.
+Kya aap sab NETI(kal) ki meetup ke liye ready ho?
 Seriously, cricket match dekhne chalte hain.
-Bhai, aaj ka party epic hone wala hai.
-Bhai, yeh selfie game aaj next level hai.
+Bhai, NETI(aaj) ka party epic hone wala hai.
+Bhai, yeh selfie game NETI(aaj) next level hai.
 Kya scene hai, kab milna hai sabse?
 LOL, teri joke ne toh dil khush kar diya.
 OMG, yeh news sunke dil garden garden ho gaya.
 Bro, party outfits sab se cool dikhe.
-Chill maar, weekend plans pakka set hain.
+Chill maar, NETI(weekend) plans pakka set hain.
 Chill maar, sab theek ho jayega.
-OMG, festival mood on fire hai today.
+OMG, festival mood on fire hai NETI(today).
 LOL, teri joke ne toh dil khush kar diya.
-OMG, kal ki performance super zabardast thi.
+OMG, NETI(kal) ki performance super zabardast thi.
 Yeh weather perfect hai for outdoor masti!
-Bro, weekend getaway plan karna chahiye.
+Bro, NETI(weekend) getaway plan karna chahiye.
 LOL, tumhari video bilkul hilarious hai.
 Bhai, yeh photo bilkul insta-worthy hai.
 Seriously, yeh dessert bilkul heavenly lag raha.
 Bhai, movie selection bilkul solid hai.
 Yaar, yeh place bilkul chill vibes de raha.
 Kya mast update hai, totally unexpected!
-Aaj ka raat ka plan full fun hai.
+NETI(Aaj) ka NETI(raat) ka plan full fun hai.
 LOL, tumhari reaction dekhke sab hase.
-Yaar, weekend pe koi adventure plan karein?
-Kya upgrade hai, phone bilkul swag hai.
-Bhai, aaj ka game night full on maza aayega.
+Yaar, NETI(weekend) pe koi adventure plan karein?
+Kya upgrade hai, NEAR(phone) bilkul swag hai.
+Bhai, NETI(aaj) ka game night full on maza aayega.
 Yeh weather perfect hai for outdoor masti!
 Yaar, tumhari planning se sab impressed hain.
-Bhai, yeh gadget bilkul innovative hai.
+Bhai, yeh NEAR(gadget) bilkul innovative hai.
 Kya scene hai, outing ke liye ready ho?
 Kya mast vibes hai, dil khush ho gaya.
 Yaar, tumhari planning se sab impressed hain.
-LOL, teri comment se smile aa gayi.
-Yaar, kal ka plan set hai na?
-Seriously, yeh dessert bilkul heavenly lag raha.
-Kya upgrade hai, phone bilkul swag hai.
-Yaar, aaj ka Instagram feed fire hai.
-Bhai, kal ke game session join karna.
-Yaar, yeh road trip plan ekdum perfect hai.
-Kya upgrade hai, phone bilkul swag hai.
-Aaj ka raat ka plan full fun hai.
-Aaj ka plan simple par epic hai.
-Seriously, cricket match dekhne chalte hain.
-LOL, teri style dekhke sab impressed hain.
-Kya baat hai, sab tone bilkul vibrant hai.
-Bro, yeh style trend next level hai.
-Bro, office se nikalte hi chill karne chalo.
-Bas yaar, ab tension nahi leni chahiye.
-Yaar, weekend pe koi adventure plan karein?
-Seriously, yeh art exhibition mind-blowing hai.
-Kya mast update hai, totally unexpected!
-LOL, tumhari tweet ne sabko hasa diya.
-Chill karo yaar, sab kuch sorted hai.
-Kya aap sab kal ki meetup ke liye ready ho?
-Aaj ka brunch spot selection top class hai.
-Bro, office se nikalte hi chill karne chalo.
-Kya scene hai, outing ke liye ready ho?
-Seriously, yeh new song super catchy hai.
-Bhai, yeh photo bilkul insta-worthy hai.
-Seriously, yeh update sab ko shock kar diya.
-Bro, yeh style trend next level hai.
-Seriously, weekend plans already fix ho gaye.
-Bro, nayi album bilkul bindaas lag rahi hai.
-Yaar, aaj ka Instagram feed fire hai.
-Kya upgrade hai, phone bilkul swag hai.
-Bas yaar, ab tension nahi leni chahiye.
-Chill scene hai, kal meet-up zaroor.
-Bhai, aaj ka game night full on maza aayega.
-Aaj ka evening plan completely relaxed hai.
+Yaar, NETI(kal) ka plan set hai na?
+Kya upgrade hai, NEAR(phone) bilkul swag hai.
+Yaar, NETI(aaj) ka Instagram feed fire hai.
