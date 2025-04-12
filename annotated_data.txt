@@ -1,0 +1,102 @@
+Yaar O
+, O
+kal B-DATE
+ka O
+plan O
+set O
+hai O
+na O
+? O
+
+Bro O
+, O
+movie B-PROD
+dekhne O
+chalein O
+kya O
+? O
+
+OMG O
+, O
+yeh O
+food O
+bilkul O
+mind-blowing O
+tha O
+! O
+
+Arrey O
+, O
+traffic O
+toh O
+aaj B-DATE
+full O
+scene O
+ho O
+gaya O
+. O
+
+Bhai O
+, O
+aaj B-DATE
+ka O
+party B-CSE
+epic O
+hone O
+wala O
+hai O
+. O
+
+Yeh O
+weather O
+perfect O
+hai O
+for O
+outdoor O
+masti O
+! O
+
+Kya O
+aap O
+sab O
+kal B-DATE
+ki O
+meetup B-CSE
+ke O
+liye O
+ready O
+ho O
+? O
+
+Seriously O
+, O
+yeh O
+new O
+song B-PROD
+super O
+catchy O
+hai O
+. O
+
+Lol O
+, O
+tumhara O
+meme O
+game O
+on O
+point O
+hai O
+. O
+
+Guys O
+, O
+kal B-DATE
+ke O
+event B-CSE
+ke O
+liye O
+dress O
+code O
+kya O
+hai O
+? O
