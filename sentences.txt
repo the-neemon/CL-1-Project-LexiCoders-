@@ -1,6 +1,3 @@
-# Hinglish Text NER Annotation Using ILMT Tagset
-
-```
 Seriously, yeh art exhibition mind-blowing hai.
 NETI(Aaj) ka evening plan completely relaxed hai.
 NETI(Aaj) ka plan simple par epic hai.
@@ -495,6 +492,8 @@ Bhai, yeh NEAR(gadget) bilkul innovative hai.
 Kya scene hai, outing ke liye ready ho?
 Kya mast vibes hai, dil khush ho gaya.
 Yaar, tumhari planning se sab impressed hain.
+LOL, teri comment se smile aa gayi.
 Yaar, NETI(kal) ka plan set hai na?
+Seriously, yeh dessert bilkul heavenly lag raha.
 Kya upgrade hai, NEAR(phone) bilkul swag hai.
 Yaar, NETI(aaj) ka Instagram feed fire hai.
