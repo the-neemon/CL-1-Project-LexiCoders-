@@ -1,6 +1,8 @@
 import sklearn_crfsuite
 from sklearn_crfsuite import metrics
 import re
+import csv
+import pandas as pd
 
 # --- Feature Extraction ---
 
@@ -79,6 +81,50 @@ def sent2tokens(sent):
     return [token for token, label in sent]
 
 # --- Data Loading ---
+
+def load_data_from_csv(filepath):
+    """
+    Load data from a CSV file with format:
+    Sent,Word,Tag
+    sent: 0,word1,B-Per
+    sent: 0,word2,Other
+    ...
+    
+    Returns a list of sentences, where each sentence is a list of (word, tag) tuples.
+    """
+    print(f"Loading data from CSV: {filepath}")
+    sentences = []
+    
+    try:
+        # Read CSV file with pandas
+        df = pd.read_csv(filepath)
+        # Ensure all words are treated as strings
+        df['Word'] = df['Word'].astype(str)
+        # Group by sentence ID
+        for sent_id, group in df.groupby('Sent'):
+            sentence = []
+            for _, row in group.iterrows():
+                word = str(row['Word'])  # Ensure word is a string
+                tag = row['Tag']
+                # Convert 'Other' tag to 'O' to match standard NER format
+                if tag == 'Other':
+                    tag = 'O'
+                sentence.append((word, tag))
+            sentences.append(sentence)
+            
+        print(f"Loaded {len(sentences)} sentences with a total of {sum(len(s) for s in sentences)} tokens")
+        
+        # Validate the data
+        if sentences:
+            print(f"First sentence sample: {sentences[0][:5]}...")
+        else:
+            print("Warning: No sentences were loaded!")
+            
+    except Exception as e:
+        print(f"Error loading data from CSV {filepath}: {e}")
+        return []
+        
+    return sentences
 
 def load_data(filepath):
     """
@@ -243,22 +289,39 @@ def evaluate_model(model, X_test, y_test):
 
 if __name__ == "__main__":
     # 1. Load Annotated Data
-    # First try to load the actual annotated data files
     print("\n=== Loading annotated data ===")
-    train_sents = load_data('annotated_train.txt')
-    test_sents = load_data('annotated_test.txt')
     
-    # If the actual files are empty, use dummy data for demonstration
-    if not train_sents or not test_sents:
-        print("\nUsing dummy data for demonstration as actual data files are empty or improperly formatted.")
-        train_sents = [
-            [('Yaar', 'O'), (',', 'O'), ('kal', 'B-DATE'), ('ka', 'O'), ('plan', 'O'), ('set', 'O'), ('hai', 'O'), ('na', 'O'), ('?', 'O')],
-            [('Bro', 'O'), (',', 'O'), ('movie', 'B-PROD'), ('dekhne', 'O'), ('chalein', 'O'), ('kya', 'O'), ('?', 'O')]
-        ]
-        test_sents = [
-            [('Seriously', 'O'), (',', 'O'), ('yeh', 'O'), ('new', 'O'), ('song', 'B-PROD'), ('super', 'O'), ('catchy', 'O'), ('hai', 'O'), ('.', 'O')],
-            [('Guys', 'O'), (',', 'O'), ('kal', 'B-DATE'), ('ke', 'O'), ('event', 'B-CSE'), ('ke', 'O'), ('liye', 'O'), ('dress', 'O'), ('code', 'O'), ('kya', 'O'), ('hai', 'O'), ('?', 'O')]
-        ]
+    # Load data from CSV file
+    all_sentences = load_data_from_csv('annotatedData.csv')
+    
+    # If CSV loading fails, try to load from text files
+    if not all_sentences:
+        print("Failed to load from CSV. Trying text files...")
+        train_sents = load_data('annotated_train.txt')
+        test_sents = load_data('annotated_test.txt')
+        
+        # If the actual files are empty, use dummy data for demonstration
+        if not train_sents or not test_sents:
+            print("\nUsing dummy data for demonstration as actual data files are empty or improperly formatted.")
+            train_sents = [
+                [('Yaar', 'O'), (',', 'O'), ('kal', 'B-DATE'), ('ka', 'O'), ('plan', 'O'), ('set', 'O'), ('hai', 'O'), ('na', 'O'), ('?', 'O')],
+                [('Bro', 'O'), (',', 'O'), ('movie', 'B-PROD'), ('dekhne', 'O'), ('chalein', 'O'), ('kya', 'O'), ('?', 'O')]
+            ]
+            test_sents = [
+                [('Seriously', 'O'), (',', 'O'), ('yeh', 'O'), ('new', 'O'), ('song', 'B-PROD'), ('super', 'O'), ('catchy', 'O'), ('hai', 'O'), ('.', 'O')],
+                [('Guys', 'O'), (',', 'O'), ('kal', 'B-DATE'), ('ke', 'O'), ('event', 'B-CSE'), ('ke', 'O'), ('liye', 'O'), ('dress', 'O'), ('code', 'O'), ('kya', 'O'), ('hai', 'O'), ('?', 'O')]
+            ]
+    else:
+        # Split data into training (80%) and testing (20%) sets
+        import random
+        random.seed(42)  # For reproducibility
+        random.shuffle(all_sentences)
+        
+        split_point = int(len(all_sentences) * 0.8)
+        train_sents = all_sentences[:split_point]
+        test_sents = all_sentences[split_point:]
+        
+        print(f"Split data into {len(train_sents)} training sentences and {len(test_sents)} testing sentences")
 
     # 2. Prepare Data for CRF
     print("\n=== Preparing data for training ===")
