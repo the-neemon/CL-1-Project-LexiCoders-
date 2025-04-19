@@ -19,7 +19,6 @@ Total Training Data: 4,511 sentences with 86,119 tokens
 
 ### Testing Data
 The model was tested on:
-- testing_annotated_data (converted to testing_data.csv)
 - 565 sentences with 11,662 tokens
 
 ## Model Performance
