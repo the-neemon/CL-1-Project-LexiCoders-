@@ -323,13 +323,33 @@ def evaluate_model(model, X_test, y_test):
             print(f"Test sentence {i+1}: {sentence}")
         return
         
+    # For reporting, map 'O' to 'Other' in y_test, y_pred, and labels
+    def map_O_to_Other(seq):
+        return [['Other' if label == 'O' else label for label in sent] for sent in seq]
+    y_test_report = map_O_to_Other(y_test)
+    y_pred_report = map_O_to_Other(y_pred)
+
+    # Build label list for report, replacing 'O' with 'Other'
     labels = sorted(list(unique_labels))
+    if 'O' in labels:
+        labels = [l for l in labels if l != 'O'] + ['Other']
+    elif 'Other' not in labels:
+        labels.append('Other')
+
+    # Filter out labels with zero support
+    def get_label_support(y_true, y_pred, label):
+        true_count = sum(1 for sent in y_true for tag in sent if tag == label)
+        pred_count = sum(1 for sent in y_pred for tag in sent if tag == label)
+        return true_count + pred_count
+
+    # Keep only labels that have non-zero support
+    labels = [label for label in labels if get_label_support(y_test_report, y_pred_report, label) > 0]
     print(f"Found entity labels: {labels}")
     
     try:
         print("Classification Report:")
         report = metrics.flat_classification_report(
-            y_test, y_pred, labels=labels, digits=3, zero_division=0
+            y_test_report, y_pred_report, labels=labels, digits=3, zero_division=0
         )
         print(report)
     except Exception as e:
