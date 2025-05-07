@@ -8378,7 +8378,7 @@ sent: 398,"mahilaye,,,,,,",B-Kin
 ""
 sent: 400,Bcoz,Other
 sent: 400,modi,B-Per
-sent: 400,Ji,I-Per,B-Par
+sent: 400,Ji,B-Par
 sent: 400,ne,B-Par
 sent: 400,Himmat,Other
 sent: 400,dikhai,Other
@@ -28929,7 +28929,7 @@ sent: 1290,hamdardi,Other
 sent: 1290,Na,Other
 sent: 1290,ho,Other
 ""
-sent: 1291,"Mera,Other
+sent: 1291,Mera,Other
 sent: 1291,nam,Other
 sent: 1291,Satvir,B-Per
 sent: 1291,Singh,I-Per
