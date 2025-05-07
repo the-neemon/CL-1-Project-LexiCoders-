@@ -1,143 +1,121 @@
-import pandas as pd
+from model import (
+    load_all_training_data,
+    load_data_from_csv,
+    sent2features,
+    sent2labels,
+    train_model,
+    evaluate_model
+)
 import numpy as np
-from sklearn_crfsuite import CRF
-from sklearn_crfsuite.metrics import flat_classification_report
-from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
-import os
+import pandas as pd
 
-def load_data(file_path):
-    df = pd.read_csv(file_path)
-    return df
-
-def word2features(sent, i):
-    word = sent[i][0]
-    postag = sent[i][1]
-    features = {
-        'bias': 1.0,
-        'word.lower()': word.lower(),
-        'word[-3:]': word[-3:],
-        'word[-2:]': word[-2:],
-        'word.isupper()': word.isupper(),
-        'word.istitle()': word.istitle(),
-        'word.isdigit()': word.isdigit(),
-        'postag': postag,
-        'postag[:2]': postag[:2],
-    }
-    if i > 0:
-        word1 = sent[i-1][0]
-        postag1 = sent[i-1][1]
-        features.update({
-            '-1:word.lower()': word1.lower(),
-            '-1:word.istitle()': word1.istitle(),
-            '-1:word.isupper()': word1.isupper(),
-            '-1:postag': postag1,
-            '-1:postag[:2]': postag1[:2],
-        })
-    else:
-        features['BOS'] = True
-    if i < len(sent)-1:
-        word1 = sent[i+1][0]
-        postag1 = sent[i+1][1]
-        features.update({
-            '+1:word.lower()': word1.lower(),
-            '+1:word.istitle()': word1.istitle(),
-            '+1:word.isupper()': word1.isupper(),
-            '+1:postag': postag1,
-            '+1:postag[:2]': postag1[:2],
-        })
-    else:
-        features['EOS'] = True
-    return features
-
-def sent2features(sent):
-    return [word2features(sent, i) for i in range(len(sent))]
-
-def sent2labels(sent):
-    return [label for token, postag, label in sent]
-
-def sent2tokens(sent):
-    return [token for token, postag, label in sent]
-
-def train_crf_model(X_train, y_train):
-    crf = CRF(algorithm='lbfgs',
-              c1=0.1,
-              c2=0.1,
-              max_iterations=100,
-              all_possible_transitions=True)
-    crf.fit(X_train, y_train)
-    return crf
-
-def evaluate_model(crf, X_test, y_test):
-    y_pred = crf.predict(X_test)
-    report = flat_classification_report(y_test, y_pred)
-    return report, y_pred
-
-def plot_confusion_matrix(y_true, y_pred, labels):
-    cm = confusion_matrix(y_true, y_pred, labels=labels)
-    plt.figure(figsize=(15, 15))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=labels, yticklabels=labels)
-    plt.title('Confusion Matrix')
-    plt.ylabel('True Label')
-    plt.xlabel('Predicted Label')
-    plt.xticks(rotation=45)
-    plt.yticks(rotation=45)
+def plot_confusion_matrix(y_true, y_pred, labels, output_file='confusion_matrix.png'):
+    """
+    Generate and save a confusion matrix visualization.
+    
+    Args:
+        y_true: List of true labels
+        y_pred: List of predicted labels
+        labels: List of unique label names
+        output_file: Name of the output PNG file
+    """
+    # Flatten the lists of lists
+    y_true_flat = [label for sent in y_true for label in sent]
+    y_pred_flat = [label for sent in y_pred for label in sent]
+    
+    # Create confusion matrix
+    cm = confusion_matrix(y_true_flat, y_pred_flat, labels=labels)
+    
+    # Convert to DataFrame for better labeling
+    cm_df = pd.DataFrame(cm, index=labels, columns=labels)
+    
+    # Create figure with larger size
+    plt.figure(figsize=(15, 12))
+    
+    # Create a mask for the diagonal
+    mask = np.zeros_like(cm_df, dtype=bool)
+    np.fill_diagonal(mask, True)
+    
+    # Create two heatmaps: one for diagonal, one for off-diagonal
+    # First, plot the off-diagonal elements
+    sns.heatmap(cm_df, mask=mask, annot=True, fmt='d', cmap='Blues',
+                xticklabels=True, yticklabels=True, cbar=False,
+                vmax=cm_df.values.max() * 0.3)  # Limit color scale for off-diagonal
+    
+    # Then, plot the diagonal elements with a different color scale
+    sns.heatmap(cm_df, mask=~mask, annot=True, fmt='d', cmap='Reds',
+                xticklabels=True, yticklabels=True, cbar=False,
+                vmin=0, vmax=cm_df.values.max())
+    
+    # Add a colorbar
+    plt.colorbar(plt.gca().collections[0], label='Count')
+    
+    # Customize the plot
+    plt.title('Confusion Matrix for NER Model', pad=20, fontsize=14)
+    plt.xlabel('Predicted Labels', labelpad=10)
+    plt.ylabel('True Labels', labelpad=10)
+    
+    # Rotate x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right')
+    plt.yticks(rotation=0)
+    
+    # Adjust layout to prevent label cutoff
     plt.tight_layout()
-    plt.savefig('confusion_matrix.png')
+    
+    # Save the plot
+    plt.savefig(output_file, dpi=300, bbox_inches='tight')
     plt.close()
-
-def prepare_data(df):
-    sentences = []
-    current_sentence = []
-    for _, row in df.iterrows():
-        if pd.isna(row['Sent']):
-            if current_sentence:
-                sentences.append(current_sentence)
-                current_sentence = []
-        else:
-            current_sentence.append((row['Word'], row['Tag'], row['Tag']))
-    if current_sentence:
-        sentences.append(current_sentence)
-    return sentences
+    
+    print(f"\nConfusion matrix saved as {output_file}")
 
 def main():
-    training_files = [
-        'training_data/train_datav1.csv',
-        'training_data/shrish_data.csv',
-        'training_data/naman_data_2.csv',
-        'training_data/naman_data_3.csv',
-        'training_data/train_datav2.csv',
-        'training_data/annotatedData.csv',
-        'training_data/naman_data_1.csv',
-        'training_data/yash_data.csv'
-    ]
+    # 1. Load training data
+    print("\n=== Loading Training Data ===")
+    train_sentences = load_all_training_data("training_data")
     
-    all_sentences = []
-    for file in training_files:
-        if os.path.exists(file):
-            df = load_data(file)
-            sentences = prepare_data(df)
-            all_sentences.extend(sentences)
+    if not train_sentences:
+        print("Error: No training data loaded!")
+        return
     
-    X = [sent2features(s) for s in all_sentences]
-    y = [sent2labels(s) for s in all_sentences]
+    # 2. Load testing data
+    print("\n=== Loading Testing Data ===")
+    test_sentences = load_data_from_csv("testing_data.csv")
     
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    if not test_sentences:
+        print("Error: No testing data loaded!")
+        return
     
-    crf = train_crf_model(X_train, y_train)
-    report, y_pred = evaluate_model(crf, X_test, y_test)
+    # 3. Prepare features and labels
+    print("\n=== Preparing Features and Labels ===")
+    X_train = [sent2features(s) for s in train_sentences]
+    y_train = [sent2labels(s) for s in train_sentences]
     
-    all_labels = sorted(set([label for sent in y_test for label in sent]))
-    plot_confusion_matrix([label for sent in y_test for label in sent],
-                         [label for sent in y_pred for label in sent],
-                         all_labels)
+    X_test = [sent2features(s) for s in test_sentences]
+    y_test = [sent2labels(s) for s in test_sentences]
     
-    print("\nClassification Report:")
-    print(report)
+    print(f"Number of training sentences: {len(X_train)}")
+    print(f"Number of testing sentences: {len(X_test)}")
     
-    return crf, report
+    # 4. Train the model
+    print("\n=== Training Model ===")
+    crf_model = train_model(X_train, y_train)
+    
+    # 5. Evaluate the model
+    print("\n=== Evaluating Model ===")
+    y_pred = crf_model.predict(X_test)
+    
+    # Get unique labels
+    labels = sorted(list(set([label for sent in y_test for label in sent])))
+    
+    # Generate confusion matrix
+    print("\n=== Generating Confusion Matrix ===")
+    plot_confusion_matrix(y_test, y_pred, labels)
+    
+    # Print evaluation metrics
+    evaluate_model(crf_model, X_test, y_test)
 
 if __name__ == "__main__":
-    main() 
+    main()
